@@ -9,3 +9,9 @@
   - ```conda env create -f environment.yml```
   - ```conda activate sgxl```
   
+## Data Preparation ##
+For a quick start, you can download the few-shot datasets provided by the authors of [FastGAN](https://github.com/odegeasslbc/FastGAN-pytorch). You can download them [here](https://drive.google.com/file/d/1aAJCZbXNHyraJ6Mi13dSbe7pTyfPXha0/view). To prepare the dataset at the respective resolution, run
+```
+python dataset_tool.py --source=./data/pokemon --dest=./data/pokemon256.zip \
+  --resolution=256x256 --transform=center-crop
+```
