@@ -33,4 +33,7 @@ For a class-conditional dataset (ImageNet, CIFAR-10), add the flag ```--cond Tru
 - Model with higher resolution: https://drive.google.com/file/d/1nG8Rz69LPP7YfEyRLwJTlgLmxf3dhMh0/view?usp=sharing
 
 ## Testing Examples ##
-Generated Images will appear in the stylemc_out folder
+Generated Images will appear in the stylemc_out folder. The example available in the folder is for the following text prompt:
+```
+--text-prompt "a chimpanzee | laughter | happyness| happy chimpanzee | happy monkey | smile | grin"
+```
