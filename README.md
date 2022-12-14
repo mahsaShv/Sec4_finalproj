@@ -18,5 +18,5 @@ python dataset_tool.py --source=./data/pokemon --dest=./data/pokemon256.zip \
 
 
 ## Trained Models ##
-Model with lower resolution: https://drive.google.com/file/d/1cKtONTnrNlccgNPq1JGabKzfLbWBUFOY/view?usp=sharing
-Model with higher resolution: https://drive.google.com/file/d/1nG8Rz69LPP7YfEyRLwJTlgLmxf3dhMh0/view?usp=sharing
+- Model with lower resolution: https://drive.google.com/file/d/1cKtONTnrNlccgNPq1JGabKzfLbWBUFOY/view?usp=sharing
+- Model with higher resolution: https://drive.google.com/file/d/1nG8Rz69LPP7YfEyRLwJTlgLmxf3dhMh0/view?usp=sharing
