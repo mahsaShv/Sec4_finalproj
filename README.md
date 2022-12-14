@@ -31,3 +31,6 @@ For a class-conditional dataset (ImageNet, CIFAR-10), add the flag ```--cond Tru
 ## Trained Models ##
 - Model with lower resolution: https://drive.google.com/file/d/1cKtONTnrNlccgNPq1JGabKzfLbWBUFOY/view?usp=sharing
 - Model with higher resolution: https://drive.google.com/file/d/1nG8Rz69LPP7YfEyRLwJTlgLmxf3dhMh0/view?usp=sharing
+
+## Testing Examples ##
+Generated Images will appear in the stylemc_out folder
