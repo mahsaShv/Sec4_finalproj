@@ -1,3 +1,6 @@
+## Paper ##
+[[PDF]](https://arxiv.org/abs/2202.00273)
+
 ## Requirements ##
 - 64-bit Python 3.8 and PyTorch 1.9.0 (or later). 
 - CUDA toolkit 11.1 or later.
