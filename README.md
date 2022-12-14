@@ -15,6 +15,17 @@ For a quick start, you can download the few-shot datasets provided by the author
 python dataset_tool.py --source=./data/pokemon --dest=./data/pokemon256.zip \
   --resolution=256x256 --transform=center-crop
 ```
+#### Training
+
+Training StyleGAN-XL on Pokemon:
+
+```
+python train.py --outdir=./training-runs/pokemon --cfg=stylegan3-t --data=./data/pokemon16.zip \
+    --gpus=8 --batch=64 --mirror=1 --snap 10 --batch-gpu 8 --kimg 10000 --syn_layers 10
+```
+
+For a class-conditional dataset (ImageNet, CIFAR-10), add the flag ```--cond True ```. The dataset needs to contain the class labels.
+
 
 
 ## Trained Models ##
